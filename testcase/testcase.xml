@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase>
+  <id>1</id>
+  <name>1.out</name>
+  <cycles>2</cycles>
+  <desc>it a test about vecotr</desc>
+  <config>--trace_flag=DTE</config>
+	<expect>failed</expect>
+</testcase>
+<testcase>
+  <id>2</id>
+  <name>2.out</name>
+  <cycles>8</cycles>
+  <desc>it a test about vecotr</desc>
+  <config>--trace_flag=DTE</config>
+	<expect>failed</expect>
+</testcase>
+<testcase>
+  <id>3</id>
+  <name>4.out</name>
+  <cycles>4</cycles>
+  <desc>it a test about vecotr</desc>
+  <config>--trace_flag=DTE</config>
+	<expect>failed</expect>
+</testcase>
+</testcases>
