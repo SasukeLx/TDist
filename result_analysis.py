@@ -1,6 +1,6 @@
 from workload import WorkLoad
 
-class Analysis(object):
+class ExecResult(object):
     """
     Analysis class
     """

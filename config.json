@@ -1,0 +1,6 @@
+{
+    "simulator": "esl_opa",
+    "timeout": 120,
+    "workspace": "./workspace",
+    "logpath": "logs/"
+}

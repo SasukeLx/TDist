@@ -8,7 +8,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Test Task Scheduler")
     parser.add_argument("-t", "--tasks", type=int, default=1, help="Number of tasks to execute in parallel")
     parser.add_argument("-l", "--log-path", type=str, default="./logs", help="Path to store log files")
-    parser.add_argument("-c", "--case-dir", type=str, default="./", help="Directory containing test cases")
+    parser.add_argument("-c", "--case-dir", type=str, default="testcase/", help="Directory containing test cases")
     parser.add_argument("-x", "--case-xml", type=str, default="testcase.xml", help="Xml file describe test cases")
     parser.add_argument("-p", "--cpu", type=int, default=1, help="Number of CPU cores available")
     parser.add_argument("-m", "--mem", type=int, default=1024, help="Memory size available")
